@@ -1,0 +1,47 @@
+{
+  "device": "cpu",
+  "epochs": 30,
+  "batch_size": 128,
+  "latent_dim": 100,
+  "learning_rate": 0.0002,
+  "sample_interval": 5,
+  "random_seed": 42,
+  "training_time_seconds": 434.33,
+  "final_generator_loss": 0.8082,
+  "final_discriminator_loss": 0.6814,
+  "generator_checkpoint": "outputs\\checkpoints\\generator_final.pth",
+  "discriminator_checkpoint": "outputs\\checkpoints\\discriminator_final.pth",
+  "loss_plot": "outputs\\plots\\loss_curve.png",
+  "progress_plot": "outputs\\plots\\training_progress.png",
+  "history_csv": "outputs\\training_history.csv",
+  "saved_samples": [
+    {
+      "epoch": 1,
+      "path": "outputs\\samples\\sample_epoch_001.png"
+    },
+    {
+      "epoch": 5,
+      "path": "outputs\\samples\\sample_epoch_005.png"
+    },
+    {
+      "epoch": 10,
+      "path": "outputs\\samples\\sample_epoch_010.png"
+    },
+    {
+      "epoch": 15,
+      "path": "outputs\\samples\\sample_epoch_015.png"
+    },
+    {
+      "epoch": 20,
+      "path": "outputs\\samples\\sample_epoch_020.png"
+    },
+    {
+      "epoch": 25,
+      "path": "outputs\\samples\\sample_epoch_025.png"
+    },
+    {
+      "epoch": 30,
+      "path": "outputs\\samples\\sample_epoch_030.png"
+    }
+  ]
+}
